@@ -26,6 +26,7 @@ sqlite3_table_to_xls( database_path, table_name, export_path )
 
 # sqlite3_table_entries_by_git_commit_history
 This verbosely named function retrieves the number of entries a table has contained throughout a git repo's history.
+Funny story, I once nuked the sqlite3 database in a django project and I needed to find the commit that had the original entries.
 ## Usage
 All mandatory parameters are strings. Returns a **list of tuples**
 
